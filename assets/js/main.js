@@ -56,10 +56,10 @@ $(document).ready(function () {
 	var $panel = $('#panel');
 	if(imgUrls == null){
 		imgUrls = new Array();
-		index = 0;		
+		index = 1;		
 		$.get(url,function (result) {
 			images = result.images;
-			for (let i = 0; i < images.length; i++) {
+			for (let i = 1; i < images.length; i++) {
 				const item = images[i];
 				imgUrls.push(item.url);
 			}
@@ -72,7 +72,7 @@ $(document).ready(function () {
 			});
 	}else{
 		if(index == 7)
-			index = 0;
+			index = 1;
 		else
 			index++;
 		var imgUrl = imgUrls[index];
