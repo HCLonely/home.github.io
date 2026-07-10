@@ -42,11 +42,11 @@ function getBingImages(imgUrls) {
 	if (!panel || !imgUrls || !Array.isArray(imgUrls) || imgUrls.length === 0) {
 		return;
 	}
-	
+
 	var indexName = "bing-image-index";
 	var index = parseInt(sessionStorage.getItem(indexName), 10);
 	var maxIndex = imgUrls.length - 1;
-	
+
 	if (isNaN(index) || index > maxIndex) {
 		index = 0;
 	} else {
@@ -55,13 +55,13 @@ function getBingImages(imgUrls) {
 			index = 0;
 		}
 	}
-	
+
 	var imgUrl = imgUrls[index];
 	// Validate URL format to prevent CSS injection
 	if (!imgUrl || typeof imgUrl !== 'string' || !imgUrl.match(BING_IMAGE_URL_PATTERN)) {
 		return;
 	}
-	
+
 	// Use backgroundImage property with proper escaping to prevent CSS injection
 	var url = "https://cn.bing.com" + imgUrl;
 	panel.style.backgroundImage = "url('" + url.replace(/['\\]/g, '\\$&') + "')";
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				var strong = document.createElement('strong');
 				strong.textContent = res.from;
 				var endText = document.createTextNode('」');
-				
+
 				descElement.innerHTML = '';
 				descElement.appendChild(textNode);
 				descElement.appendChild(br);
@@ -146,12 +146,12 @@ var navigationWrapper = document.querySelector('.navigation-wrapper');
 if (btnMobileMenu && navigationWrapper) {
 	btnMobileMenu.addEventListener('click', function () {
 		var isVisible = navigationWrapper.classList.contains('visible');
-		
+
 		function handleAnimationEnd() {
 			navigationWrapper.classList.remove('visible', 'animated', 'bounceOutUp');
 			navigationWrapper.removeEventListener('animationend', handleAnimationEnd);
 		}
-		
+
 		if (isVisible) {
 			navigationWrapper.addEventListener('animationend', handleAnimationEnd);
 			navigationWrapper.classList.remove('bounceInDown');
@@ -159,7 +159,7 @@ if (btnMobileMenu && navigationWrapper) {
 		} else {
 			navigationWrapper.classList.add('visible', 'animated', 'bounceInDown');
 		}
-		
+
 		btnMobileMenu.classList.toggle('icon-list');
 		btnMobileMenu.classList.toggle('icon-angleup');
 	});
