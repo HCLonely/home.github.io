@@ -1,21 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-07-09T04:07:22.279Z",
+  "updated_at": "2026-07-10T03:33:15.307Z",
   "stats": {
-    "total_hours": 21.68,
-    "daily_avg": 3.1,
+    "total_hours": 10.99,
+    "daily_avg": 1.57,
     "trend": "rising",
     "max_day": {
-      "date": "2026-07-03",
-      "hours": 6.73,
-      "text": "6 hrs 43 mins"
+      "date": "2026-07-08",
+      "hours": 3.95,
+      "text": "3 hrs 57 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-07-03",
-      "hours": 6.73,
-      "text": "6 hrs 43 mins"
-    },
     {
       "date": "2026-07-04",
       "hours": 0,
@@ -28,29 +23,34 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-07-06",
-      "hours": 5.8,
-      "text": "5 hrs 48 mins"
+      "hours": 0.93,
+      "text": "55 mins"
     },
     {
       "date": "2026-07-07",
-      "hours": 6.06,
-      "text": "6 hrs 3 mins"
+      "hours": 1.49,
+      "text": "1 hr 29 mins"
     },
     {
       "date": "2026-07-08",
-      "hours": 2.94,
-      "text": "2 hrs 56 mins"
+      "hours": 3.95,
+      "text": "3 hrs 57 mins"
     },
     {
       "date": "2026-07-09",
-      "hours": 0.15,
-      "text": "9 mins"
+      "hours": 3.71,
+      "text": "3 hrs 42 mins"
+    },
+    {
+      "date": "2026-07-10",
+      "hours": 0.91,
+      "text": "54 mins"
     }
   ],
   "ai": {
-    "title": "数据暴走",
-    "quote": "代码像病毒蔓延，效率和BUG齐飞，别让深夜吞噬你的灵魂。",
-    "tarot": "⚡ The Tower",
-    "theme_color": "#00FFF7"
+    "title": "渐入佳境",
+    "quote": "保持节奏，每一行代码都是通往赛博朋克的砖瓦。",
+    "tarot": "🌱 The Empress (皇后)",
+    "theme_color": "#80ed99"
   }
 };
