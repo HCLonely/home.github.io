@@ -13,6 +13,7 @@ build/
 
 # Windows
 Thumbs.db
+.history/
 
 # phpMyAdmin
 irb-x/

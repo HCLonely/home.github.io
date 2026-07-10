@@ -49,23 +49,23 @@
 
 - 打开 [Create Tokens](https://github.com/settings/tokens)，点击 `Generate new token` 创建令牌。
 
-![Create token entry](https://unpkg.com/dmego-home-page@latest/assets/img/action/action-1.png)
+![Create token entry](https://testingcf.jsdelivr.net/gh/HCLonely/home.github.io@gh-pages/assets/img/action/action-1.png)
 
 - `Note` 填写备注；`Expiration` 选择 `No expiration`；`Select scopes` 勾选 `repo`，并额外勾选 `models`（用于 GitHub Models 调用）；点击 `Generate Token`。
 
-![Token scopes](https://unpkg.com/dmego-home-page@latest/assets/img/action/action-2.png)
+![Token scopes](https://testingcf.jsdelivr.net/gh/HCLonely/home.github.io@gh-pages/assets/img/action/action-2.png)
 
 ### 2. 在仓库里创建 Actions Secrets
 
 - 打开仓库 **Settings → Secrets and variables → Actions**。
 
-![Secrets entry](https://unpkg.com/dmego-home-page@latest/assets/img/action/action-3.png)
+![Secrets entry](https://testingcf.jsdelivr.net/gh/HCLonely/home.github.io@gh-pages/assets/img/action/action-3.png)
 
 - 点击 `New repository secret`：
   - `Name` 填 `GH_TOKEN`
   - `Secret` 填上一步生成的 Token
 
-![Add secret](https://unpkg.com/dmego-home-page@latest/assets/img/action/action-4.png)
+![Add secret](https://testingcf.jsdelivr.net/gh/HCLonely/home.github.io@gh-pages/assets/img/action/action-4.png)
 
 ## 工作流权限
 

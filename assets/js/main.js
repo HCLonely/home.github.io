@@ -1,3 +1,5 @@
+var CDN_BASE_URL = "https://testingcf.jsdelivr.net/gh/HCLonely/home.github.io@gh-pages/";
+
 var iUp = (function () {
 	var time = 0,
 		duration = 150,
@@ -130,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			document.body.appendChild(script);
 		}
 
-		loadScriptOnce('./assets/json/images.js', function (err) {
+		loadScriptOnce(CDN_BASE_URL + 'assets/json/images.js', function (err) {
 			if (!err && typeof getBingImages === 'function' && window.BING_IMAGES && Array.isArray(window.BING_IMAGES)) {
 				getBingImages(window.BING_IMAGES);
 			}

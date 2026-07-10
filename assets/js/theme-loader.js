@@ -6,6 +6,8 @@
 (function() {
   'use strict';
 
+  var CDN_BASE_URL = 'https://testingcf.jsdelivr.net/gh/HCLonely/home.github.io@gh-pages/';
+
   var THEMES = {
     rest: {
       name: '休息日',
@@ -88,7 +90,7 @@
     }
 
     // Main execution: Load config via script tag
-    loadScript('assets/json/config.js', function(err) {
+    loadScript(CDN_BASE_URL + 'assets/json/config.js', function(err) {
       if (!err && window.WAKATIME_CONFIG) {
         applyTheme(window.WAKATIME_CONFIG);
       } else {
@@ -153,8 +155,8 @@
 
   function getWeeklyUrl(config) {
     var version = (config && (config.updated_at || config.date)) ? String(config.updated_at || config.date) : '';
-    if (!version) return 'assets/json/weekly.js';
-    return 'assets/json/weekly.js?v=' + encodeURIComponent(version);
+    if (!version) return CDN_BASE_URL + 'assets/json/weekly.js';
+    return CDN_BASE_URL + 'assets/json/weekly.js?v=' + encodeURIComponent(version);
   }
 
   function prefetchWeekly(config) {
