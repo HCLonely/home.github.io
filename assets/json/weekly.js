@@ -1,26 +1,16 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-09-09T04:33:33.560Z",
+  "updated_at": "2026-09-11T04:30:45.604Z",
   "stats": {
-    "total_hours": 13.8,
-    "daily_avg": 1.97,
+    "total_hours": 6.02,
+    "daily_avg": 0.86,
     "trend": "falling",
     "max_day": {
-      "date": "2026-09-03",
-      "hours": 4.63,
-      "text": "4 hrs 37 mins"
+      "date": "2026-09-08",
+      "hours": 2.36,
+      "text": "2 hrs 21 mins"
     }
   },
   "days": [
-    {
-      "date": "2026-09-03",
-      "hours": 4.63,
-      "text": "4 hrs 37 mins"
-    },
-    {
-      "date": "2026-09-04",
-      "hours": 3.98,
-      "text": "3 hrs 59 mins"
-    },
     {
       "date": "2026-09-05",
       "hours": 0.28,
@@ -38,19 +28,29 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-09-08",
-      "hours": 2.14,
-      "text": "2 hrs 8 mins"
+      "hours": 2.36,
+      "text": "2 hrs 21 mins"
     },
     {
       "date": "2026-09-09",
+      "hours": 0.6,
+      "text": "35 mins"
+    },
+    {
+      "date": "2026-09-10",
       "hours": 0,
+      "text": "0 secs"
+    },
+    {
+      "date": "2026-09-11",
+      "hours": 0.01,
       "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "渐入佳境",
-    "quote": "保持节奏，每一行代码都是通往赛博朋克的砖瓦。",
-    "tarot": "🌱 The Empress (皇后)",
-    "theme_color": "#80ed99"
+    "title": "休养生息",
+    "quote": "代码写得少，Bug 自然少。这是某种程度上的绝对胜利。",
+    "tarot": "🛌 The Hermit (隐士)",
+    "theme_color": "#a0c4ff"
   }
 };
