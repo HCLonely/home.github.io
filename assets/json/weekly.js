@@ -1,8 +1,8 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-09-30T05:25:37.327Z",
+  "updated_at": "2026-10-01T05:43:42.820Z",
   "stats": {
-    "total_hours": 13.82,
-    "daily_avg": 1.97,
+    "total_hours": 10.39,
+    "daily_avg": 1.48,
     "trend": "rising",
     "max_day": {
       "date": "2026-09-28",
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-09-24",
-      "hours": 4.92,
-      "text": "4 hrs 55 mins"
-    },
     {
       "date": "2026-09-25",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-09-30",
-      "hours": 0.35,
-      "text": "20 mins"
+      "hours": 1.84,
+      "text": "1 hr 50 mins"
+    },
+    {
+      "date": "2026-10-01",
+      "hours": 0,
+      "text": "0 secs"
     }
   ],
   "ai": {
-    "title": "渐入佳境",
-    "quote": "保持节奏，每一行代码都是通往赛博朋克的砖瓦。",
-    "tarot": "🌱 The Empress (皇后)",
-    "theme_color": "#80ed99"
+    "title": "休养生息",
+    "quote": "代码写得少，Bug 自然少。这是某种程度上的绝对胜利。",
+    "tarot": "🛌 The Hermit (隐士)",
+    "theme_color": "#a0c4ff"
   }
 };
