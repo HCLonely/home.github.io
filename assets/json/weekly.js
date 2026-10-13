@@ -1,9 +1,9 @@
 window.WAKATIME_WEEKLY = {
-  "updated_at": "2026-10-12T05:48:10.308Z",
+  "updated_at": "2026-10-13T06:42:21.055Z",
   "stats": {
-    "total_hours": 26.27,
-    "daily_avg": 3.75,
-    "trend": "rising",
+    "total_hours": 32.48,
+    "daily_avg": 4.64,
+    "trend": "falling",
     "max_day": {
       "date": "2026-10-09",
       "hours": 8.24,
@@ -11,11 +11,6 @@ window.WAKATIME_WEEKLY = {
     }
   },
   "days": [
-    {
-      "date": "2026-10-06",
-      "hours": 0.03,
-      "text": "1 min"
-    },
     {
       "date": "2026-10-07",
       "hours": 0,
@@ -43,14 +38,19 @@ window.WAKATIME_WEEKLY = {
     },
     {
       "date": "2026-10-12",
-      "hours": 3.48,
-      "text": "3 hrs 29 mins"
+      "hours": 6.71,
+      "text": "6 hrs 42 mins"
+    },
+    {
+      "date": "2026-10-13",
+      "hours": 3.01,
+      "text": "3 hrs"
     }
   ],
   "ai": {
-    "title": "渐入佳境",
-    "quote": "保持节奏，每一行代码都是通往赛博朋克的砖瓦。",
-    "tarot": "🌱 The Empress (皇后)",
-    "theme_color": "#80ed99"
+    "title": "火力全开",
+    "quote": "键盘都在喊累，但你的 Commit 还在飞。",
+    "tarot": "⚡ The Magician (魔术师)",
+    "theme_color": "#f5af19"
   }
 };
